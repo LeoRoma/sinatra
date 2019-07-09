@@ -1,7 +1,5 @@
 require 'sinatra'
 
-
-
 set :session_secret, 'super secret'#this line under require
 
 get '/' do
